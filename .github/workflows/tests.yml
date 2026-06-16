@@ -21,7 +21,7 @@ jobs:
           cache: "pip"
 
       - name: Install test dependencies
-        run: pip install numpy pytest
+        run: pip install numpy pytest Pillow
 
       - name: Run tests
         run: pytest tests/ -v --tb=short
