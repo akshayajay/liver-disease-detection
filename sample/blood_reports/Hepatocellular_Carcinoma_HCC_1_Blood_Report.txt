@@ -1,0 +1,9 @@
+Blood Sample Report
+Test Date: 2025-04-02
+Patient: John Doe
+Liver Function Tests:
+  ALT: 131.2 U/L (Normal: 7-56 U/L)
+  AST: 112.9 U/L (Normal: 10-40 U/L)
+  ALP: 76.8 U/L (Normal: 44-147 U/L)
+  Total Bilirubin: 1.3 mg/dL (Normal: 0.1-1.2 mg/dL)
+Interpretation: These findings, in the context of Hepatocellular Carcinoma (HCC), are suggestive of liver dysfunction. Further evaluation is recommended.

@@ -1,0 +1,9 @@
+Blood Sample Report
+Test Date: 2025-04-02
+Patient: John Doe
+Liver Function Tests:
+  ALT: 58.6 U/L (Normal: 7-56 U/L)
+  AST: 56.5 U/L (Normal: 10-40 U/L)
+  ALP: 197.3 U/L (Normal: 44-147 U/L)
+  Total Bilirubin: 0.7 mg/dL (Normal: 0.1-1.2 mg/dL)
+Interpretation: These findings, in the context of Simple Hepatic Cysts, are suggestive of liver dysfunction. Further evaluation is recommended.

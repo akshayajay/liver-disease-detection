@@ -1,0 +1,9 @@
+Electronic Hospital Record
+Date: 2025-04-02
+Patient Name: John Doe
+Age: 60
+Gender: Female
+Diagnosis: Portal Vein Thrombosis
+Clinical Presentation: Patient presents with symptoms consistent with portal vein thrombosis. Symptoms include abdominal discomfort, potential jaundice, and abnormal liver function tests.
+Imaging Findings: The synthetic image demonstrates features characteristic of Portal Vein Thrombosis.
+Plan: Further laboratory evaluation and clinical correlation are recommended. Treatment may include medications, lifestyle modifications, and follow-up imaging studies.

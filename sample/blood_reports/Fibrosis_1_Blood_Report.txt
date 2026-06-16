@@ -1,0 +1,9 @@
+Blood Sample Report
+Test Date: 2025-04-02
+Patient: John Doe
+Liver Function Tests:
+  ALT: 100.7 U/L (Normal: 7-56 U/L)
+  AST: 30.0 U/L (Normal: 10-40 U/L)
+  ALP: 113.7 U/L (Normal: 44-147 U/L)
+  Total Bilirubin: 2.2 mg/dL (Normal: 0.1-1.2 mg/dL)
+Interpretation: These findings, in the context of Fibrosis, are suggestive of liver dysfunction. Further evaluation is recommended.

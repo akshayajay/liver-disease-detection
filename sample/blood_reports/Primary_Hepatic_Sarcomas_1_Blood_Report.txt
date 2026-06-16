@@ -1,0 +1,9 @@
+Blood Sample Report
+Test Date: 2025-04-02
+Patient: John Doe
+Liver Function Tests:
+  ALT: 47.5 U/L (Normal: 7-56 U/L)
+  AST: 130.4 U/L (Normal: 10-40 U/L)
+  ALP: 131.1 U/L (Normal: 44-147 U/L)
+  Total Bilirubin: 1.4 mg/dL (Normal: 0.1-1.2 mg/dL)
+Interpretation: These findings, in the context of Primary Hepatic Sarcomas, are suggestive of liver dysfunction. Further evaluation is recommended.
