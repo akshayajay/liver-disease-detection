@@ -1,6 +1,8 @@
-# AI-Driven Liver Disease Diagnosis
+# AI-Driven Liver Disease Diagnosis: Multi-Modal Fusion of Medical Imaging and Clinical Reports
 
 > Multi-modal fusion of medical imaging, EHR data, and lab values for automated liver disease classification across 23 conditions.
+
+**🏅 Patent Granted** · Application No. 202541059774 · Issued July 4, 2025
 
 ---
 
