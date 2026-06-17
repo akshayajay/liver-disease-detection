@@ -1,0 +1,66 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+
+  "timezone": "Asia/Kolkata",
+  "schedule": ["every weekend"],
+
+  "automerge": true,
+  "automergeType": "pr",
+  "automergeStrategy": "squash",
+  "platformAutomerge": true,
+
+  "packageRules": [
+    {
+      "description": "Auto-merge security patches immediately, any day",
+      "matchUpdateTypes": ["patch", "minor"],
+      "matchCategories": ["security"],
+      "automerge": true,
+      "schedule": ["at any time"],
+      "labels": ["security", "automerge"]
+    },
+    {
+      "description": "Auto-merge patch updates after CI passes",
+      "matchUpdateTypes": ["patch"],
+      "automerge": true,
+      "labels": ["patch", "automerge"]
+    },
+    {
+      "description": "Minor updates need a passing CI but automerge",
+      "matchUpdateTypes": ["minor"],
+      "automerge": true,
+      "labels": ["minor", "automerge"]
+    },
+    {
+      "description": "Major updates always require manual review",
+      "matchUpdateTypes": ["major"],
+      "automerge": false,
+      "labels": ["major", "needs-review"]
+    },
+    {
+      "description": "Pin GitHub Actions to digests for supply chain safety",
+      "matchManagers": ["github-actions"],
+      "automerge": true,
+      "matchUpdateTypes": ["patch", "minor"]
+    }
+  ],
+
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "schedule": ["at any time"],
+    "automerge": true,
+    "labels": ["security", "vulnerability"]
+  },
+
+  "prConcurrentLimit": 3,
+  "prHourlyLimit": 2,
+  "minimumReleaseAge": "3 days",
+
+  "commitMessagePrefix": "chore(deps):",
+  "rebaseWhen": "conflicted",
+
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/__pycache__/**"
+  ]
+}
